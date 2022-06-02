@@ -8,3 +8,9 @@ FRotator UVectorToRotator::VtoRotator(FVector vec)
 	FRotator convers = vec.Rotation();
 	return convers;
 }
+
+float UVectorToRotator::VecSize(FVector vect)
+{
+	float Vectorr = vect.Size();
+	return Vectorr ;
+}

@@ -16,7 +16,8 @@ class BLASTERBPCPLUS_API UVectorToRotator : public UBlueprintFunctionLibrary
 
 		UFUNCTION(BlueprintCallable, Category = "Conversion")
 		static FRotator VtoRotator(FVector vec);
-
+		UFUNCTION(BlueprintCallable, Category = "Conversion")
+		static float VecSize(FVector vect);
 		UFUNCTION(BlueprintCallable, Category = "HitResultChange")
 		void SetImpactPointHit(FHitResult res, FVector impactPoint) { res.ImpactPoint = impactPoint; }
 };
