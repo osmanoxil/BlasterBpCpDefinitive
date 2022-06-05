@@ -4,7 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "Engine/EngineTypes.h"
+#include "GameFramework/Character.h"
+#include "TimerManager.h"
 #include "VectorToRotator.generated.h"
+
 
 /**
  * 
@@ -20,4 +24,6 @@ class BLASTERBPCPLUS_API UVectorToRotator : public UBlueprintFunctionLibrary
 		static float VecSize(FVector vect);
 		UFUNCTION(BlueprintCallable, Category = "HitResultChange")
 		void SetImpactPointHit(FHitResult res, FVector impactPoint) { res.ImpactPoint = impactPoint; }
+
+
 };

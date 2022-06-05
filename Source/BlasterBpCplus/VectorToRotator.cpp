@@ -14,3 +14,5 @@ float UVectorToRotator::VecSize(FVector vect)
 	float Vectorr = vect.Size();
 	return Vectorr ;
 }
+
+
