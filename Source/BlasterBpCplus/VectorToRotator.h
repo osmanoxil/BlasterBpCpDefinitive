@@ -25,5 +25,8 @@ class BLASTERBPCPLUS_API UVectorToRotator : public UBlueprintFunctionLibrary
 		UFUNCTION(BlueprintCallable, Category = "HitResultChange")
 		void SetImpactPointHit(FHitResult res, FVector impactPoint) { res.ImpactPoint = impactPoint; }
 
+		UFUNCTION(BlueprintCallable, Category = "ResetActor")
+
+		static void ResetPlayer(AActor* Player);
 
 };

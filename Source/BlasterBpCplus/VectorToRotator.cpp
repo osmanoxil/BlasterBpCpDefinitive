@@ -15,4 +15,10 @@ float UVectorToRotator::VecSize(FVector vect)
 	return Vectorr ;
 }
 
+void UVectorToRotator::ResetPlayer(AActor* Player)
+{
+	Player->Reset();
+	Player->Destroy();
+}
+
 
