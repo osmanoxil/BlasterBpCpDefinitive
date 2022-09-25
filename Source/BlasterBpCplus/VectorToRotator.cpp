@@ -21,4 +21,11 @@ void UVectorToRotator::ResetPlayer(AActor* Player)
 	Player->Destroy();
 }
 
+FConstPlayerControllerIterator UVectorToRotator::ControllersPointers()
+{
+	FConstPlayerControllerIterator it = GetWorld()->GetPlayerControllerIterator();
+	return it;
+}
+
+
 
