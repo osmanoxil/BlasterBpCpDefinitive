@@ -13,5 +13,7 @@ UCLASS()
 class BLASTERBPCPLUS_API ABlasterBpCplusGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
+
+
 	
 };

@@ -29,7 +29,5 @@ class BLASTERBPCPLUS_API UVectorToRotator : public UBlueprintFunctionLibrary
 
 		static void ResetPlayer(AActor* Player);
 
-		UFUNCTION(BlueprintCallable, Category = "Pointer")
-			FConstPlayerControllerIterator ControllersPointers();
 
 };
