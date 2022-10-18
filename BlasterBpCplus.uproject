@@ -38,6 +38,10 @@
 			"Name": "Odin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f45b045efc62416e9f6e6858519ab999"
+		},
+		{
+			"Name": "PropertyDebugEditor",
+			"Enabled": true
 		}
 	]
 }
