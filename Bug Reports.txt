@@ -10,3 +10,4 @@ Server side rewind limitation
 
 Headshot to add
 
+Change handle matche start from begin play to override function HandleMatchHasStarted()
